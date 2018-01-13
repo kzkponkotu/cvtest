@@ -41440,7 +41440,7 @@ Viewer.prototype = {
     this.onDraw();
     //ponkotu
     OpenJSCADOn = true;
-    //if (UnityOn && OpenJSCADOn) OpenJSCADModelTransmit();    
+    if (UnityOn && OpenJSCADOn) OpenJSCADModelTransmit();    
   },
 
   clear: function clear() {

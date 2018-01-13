@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "UnityModelViewer",
+"dataUrl": "soy_simu_temp.data.unityweb",
+"asmCodeUrl": "soy_simu_temp.asm.code.unityweb",
+"asmMemoryUrl": "soy_simu_temp.asm.memory.unityweb",
+"asmFrameworkUrl": "soy_simu_temp.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

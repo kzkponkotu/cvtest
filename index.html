@@ -15,6 +15,8 @@
             display: none;
         }
     </style>
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
     <script>
         let script;
         let editorflag = true;
@@ -64,7 +66,6 @@
         </a-marker>
         <a-entity camera> </a-entity>
     </a-scene>
-    -->
 
     <script src="dist/min.js"></script>
     <!-- setup display of the errors as required by OpenJSCAD.js -->
@@ -90,6 +91,16 @@
             document.getElementById('updateButton').click();
         });
     </script>
+
+    <div class="webgl-content" style="z-index: 100; position: absolute; top: 0px; left: 0px;">
+        <div id="gameContainer" style="width: 960px; height: 600px"></div>
+        <div class="footer">
+            <div class="webgl-logo"></div>
+            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+            <div class="title">UnityModelViewer</div>
+        </div>
+    </div>
+
 </body>
 
 </html>
